@@ -24,3 +24,24 @@ Here are all my Tech Goals Which I want to achieve.
 ## Skills to Learn
 
 - Full Stack Web Development
+- DevOps
+- Mobile App Development
+- Linux Kernel Development
+
+## Core Computer Science Concepts and Subjects
+
+- Concepts
+
+  - System Design
+  - Design Pattern
+  - Regex
+
+- Subjects
+  - Computer Architecture
+  - Algorithms and Data Structures
+  - Math for CS
+  - Operating Systems
+  - Computer Networking
+  - Databases
+  - Languages and Compilers
+  - Distributed Systems
