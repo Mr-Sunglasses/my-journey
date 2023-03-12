@@ -4,7 +4,7 @@
 
 ## To build this book
 
-### for linux
+### for linux and macos
 
 ```
 chmod +x build.sh
