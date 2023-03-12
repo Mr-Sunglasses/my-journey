@@ -1,6 +1,6 @@
 # my-journey
 
-## A Book that potrey my journey till now.
+## A Book that potrey my journey till now
 
 ## To build this book
 
