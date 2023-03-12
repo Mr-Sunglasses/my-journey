@@ -6,5 +6,7 @@
 
 ### for linux
 
-`chmod +x build.sh`
-`./build.sh`
+```
+chmod +x build.sh
+./build.sh
+```
