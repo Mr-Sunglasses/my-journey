@@ -6,10 +6,9 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Python
 - JavaScript and TypeScript
-- C
 - Go
-- C++
 - Rust
+- C
 
 ## Essentials
 
@@ -26,7 +25,6 @@ Here are all my Tech Goals Which I want to achieve.
 - Full Stack Web Development
 - DevOps
 - Mobile App Development
-- Linux Kernel Development
 
 ## Core Computer Science Concepts and Subjects
 
@@ -37,11 +35,7 @@ Here are all my Tech Goals Which I want to achieve.
   - Regex
 
 - Subjects
-  - Computer Architecture
   - Algorithms and Data Structures
   - Math for CS
-  - Operating Systems
   - Computer Networking
   - Databases
-  - Languages and Compilers
-  - Distributed Systems
