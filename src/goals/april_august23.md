@@ -1,17 +1,16 @@
-# Tech Goals for the year 2023
+# April - August Goals 2023
 
 <p align="center">
-  <img src="https://thumbs.gfycat.com/NervousTimelyAardvark-size_restricted.gif" />
+  <img src="https://media.tenor.com/2H7pgtSWoWUAAAAi/autumnal-equinox-happy-fall.gif" />
 </p>
 
-Here are all my Tech Goals Which I want to achieve.
+Here are all my Tech Goals for April - August Goals 2023
 
 ## Languages
 
 - Python
 - JavaScript and TypeScript
 - Go
-- C
 
 ## Essentials
 
@@ -39,7 +38,5 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Subjects
   - Algorithms and Data Structures
-  - Math for CS
-  - Operating System
   - Computer Networking
   - Databases

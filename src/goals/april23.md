@@ -1,7 +1,9 @@
-# Tech Goals for the year 2023
+# April 2023 Goals
+
+# Tech Goals for April 2023 Month
 
 <p align="center">
-  <img src="https://thumbs.gfycat.com/NervousTimelyAardvark-size_restricted.gif" />
+  <img src="https://media2.giphy.com/media/karghVv6Yai2ENN78a/giphy.gif?cid=6c09b9520l3r0wv9wi5dg993ynsravyqmfvn648j5lsekbct&rid=giphy.gif&ct=s" />
 </p>
 
 Here are all my Tech Goals Which I want to achieve.
@@ -9,9 +11,8 @@ Here are all my Tech Goals Which I want to achieve.
 ## Languages
 
 - Python
-- JavaScript and TypeScript
+- JavaScript
 - Go
-- C
 
 ## Essentials
 
@@ -27,7 +28,6 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Full Stack Web Development
 - DevOps
-- Mobile App Development
 
 ## Core Computer Science Concepts and Subjects
 
@@ -39,7 +39,5 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Subjects
   - Algorithms and Data Structures
-  - Math for CS
-  - Operating System
   - Computer Networking
   - Databases
