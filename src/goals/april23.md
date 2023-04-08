@@ -10,7 +10,7 @@ Here are all my Tech Goals Which I want to achieve.
 
 ## Languages
 
-- Python
+- Python (Flask, FastAPI)
 - JavaScript
 - Go
 

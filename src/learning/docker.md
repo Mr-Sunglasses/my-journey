@@ -68,4 +68,86 @@
 
 # DockerFile
 
-- Used to Build Your Own Images
+- <h3>Used to Build Your Own Images</h3>
+
+  - Docker Image
+
+    - Image is a template for creating an enviroment of your choice.
+    - Snapshot
+    - Has Everything needed to run your app
+    - OS, Software, App Code
+
+  - Basic example of a docker image
+
+    - Let's dockerize a Simple Flask App
+
+      - First Lets Create a Python venv by using command :-
+        `python3 -m venv venv` <br> and activate it `source venv/bin/activate`
+
+      - Now install flask
+        `pip3 install flask`
+
+      - Now create a requirements.txt
+        `pip3 freeze > requirements.txt`
+
+      - Now create a python file for the flask app
+        `touch app.py`
+
+      - The files seems something like this
+        ```
+        .
+        ├── app.py
+        ├── requirements.txt
+        └── venv
+        ```
+      - Now Write a Simple Web Server With flask
+
+        ```
+        from flask import Flask
+
+        app = Flask(__name__)
+
+        @app.route("/")
+        def home():
+            return "<h1> Hello Flask </h1>"
+
+        if __name__ == "__main__":
+            app.run(port=8080)
+        ```
+
+      - Let's Write a DockerFile for this
+        `touch Dockerfile` <br>
+
+        ```
+        FROM python3.10:latest
+
+        WORKDIR /app
+
+        COPY . /app
+
+        RUN pip3 install -r requirements.txt
+
+        CMD ["python3", "app.py"]
+        ```
+
+      - Now We need to just build and run this dockerfile <br>
+        `docker build -t <name_and_tag_of_image> .` <br>
+      - To run a container from the Image <br>
+        `docker rum --name <name_of_container> -d -p 8080:8080 <name_and_tag_of_image>`
+
+      - .dockerignore files
+
+        - Sometimes we have files that we don't want to be copied in our image so these files are mentioned in the `.dockerignore` file
+
+        - In the above flask dockerize example we don't want to copy our venv so we mention it in our dockerignore file. <br>
+
+        - Example
+          `touch .dockerignore` <br>
+          Content of `.dockerignore`
+          ```
+          venv
+          .git
+          .gitignore
+          ```
+
+- <h3>Caching and Layers in a Dockerfile</h3>
