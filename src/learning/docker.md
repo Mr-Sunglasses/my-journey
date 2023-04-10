@@ -151,3 +151,34 @@
           ```
 
 - <h3>Caching and Layers in a Dockerfile</h3>
+  In the above example when we need rebuid our docker image everytime some task runs which are not been update and can use the feature of docker caching
+
+  - For ex
+
+    ```
+    FROM python:3.11
+
+    WORKDIR /app
+
+
+    COPY requirements.txt /app
+
+    RUN pip3 install -r requirements.txt
+
+    COPY . /app
+
+    CMD ["python3", "app.py"]
+
+    ```
+
+    In the above Dockerfile example everytime when we build our image after changing the code of the project not the dependency aka packages, it always reinstall those packages, which is not a good practice, because it takes more time to build the image.
+
+    In this Newly written dockerfile, we are just caching the dependency layer so that every time when we update the code we did not install those, pre-install dependency over and over we just used the cached one's it helps in reducing the build time of the docker container and if we update some dependency and we don't want to buid the image by using the cache we use the command `docker build` with the flag `-no-cache`
+
+    - <h3>A somewhat defination of Docker caching</h3>
+
+      Docker caching is an important feature of the Docker engine that can significantly improve the efficiency of container image builds. When building a Docker image, the engine creates multiple layers that represent different stages of the build process, each of which can be cached and reused if they haven't changed since the last build.
+
+      For example, if you modify the application code in your container image, but not the underlying dependencies, the Docker engine can reuse the previously built layers that contain those dependencies, thereby reducing the amount of time and resources required to rebuild the image. This caching mechanism can speed up the build process considerably, especially when making incremental changes to your application.
+
+      However, caching can also be a double-edged sword, as it can lead to outdated dependencies or configurations being reused. Therefore, it is important to understand how the Docker engine handles caching and to know when to clear the cache to ensure that your container images are up-to-date and secure. You can use the --no-cache option with the docker build command to ignore the cache and perform a full rebuild of the image.
