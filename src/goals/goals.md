@@ -10,7 +10,6 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Python
 - JavaScript and TypeScript
-- Go
 - C
 
 ## Essentials
@@ -18,7 +17,7 @@ Here are all my Tech Goals Which I want to achieve.
 - Linux, Shell Scripting, Vim
 - Git + Github
 - DBMS
-  - Sql (Psql, MySQL)
+  - Sql (Psql)
   - MongoDB
   - Redis
   - Firebase
@@ -27,7 +26,7 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Full Stack Web Development
 - DevOps
-- Mobile App Development
+- Mobile App Development (React Native)
 
 ## Core Computer Science Concepts and Subjects
 
@@ -39,7 +38,6 @@ Here are all my Tech Goals Which I want to achieve.
 
 - Subjects
   - Algorithms and Data Structures
-  - Math for CS
   - Operating System
   - Computer Networking
   - Databases

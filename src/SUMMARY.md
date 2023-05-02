@@ -11,9 +11,6 @@
     - [favourite_songs](./personal/songs.md)
 
 - [Goals for 2023](./goals/goals.md)
-  - [April - August Goals 2023](./goals/april_august23.md)
-    - [April 2023 Goals](./goals/april23.md)
-    - [1 week Goals](./goals/april7week)
 - [My Learning](./learning/Learning.md)
   - [Docker](./learning/docker.md)
   - [PSQL](./learning/psql.md)
